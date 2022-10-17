@@ -1,0 +1,68 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Titillium Web', sans-serif;
+	color: #848586;
+	font-size: 16px;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	margin-top: 78px;
+}
+
+.logo {
+	font-size: 30px;
+	font-weight: bold;
+	float: left;
+}
+
+.menu {
+	float: right;
+}
+
+.navigation-item {
+	margin-right: 25px;
+}
+
+.navigation-item:last-child {
+	margin-right: 0px;
+}
+
+.btn {
+	display: inline-block;
+	padding: 8px 20px;
+	color: #474747;
+	font-weight: bold;
+}
+
+.btn-sign-up {
+	background: rgb(79,48,123);
+	background: linear-gradient(150deg, rgba(79,48,123,1) 33%, rgba(0,212,255,1) 100%);
+		box-shadow: 0px 5px 10px 3px rgba(79,48,123,0.3), 
+            		0px 8px 10px 3px rgba(0,212,255,0.3);
+	border-radius: 25px;
+	color: white;
+}
+
+.btn i {
+	font-size: 14px;
+	margin-right: 7px;
+}
+
+.container {
+	margin: 0 200px;
+}
+
+.p-text {
+	color: #554491;
+}
