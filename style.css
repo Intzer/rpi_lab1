@@ -30,6 +30,15 @@ header {
 	float: right;
 }
 
+.navigation {
+	padding-top: 8px;
+	float: left;
+}
+
+.login {
+	float: right;
+}
+
 .navigation-item {
 	margin-right: 25px;
 }
