@@ -20,14 +20,23 @@ header {
 	margin-top: 78px;
 }
 
+.slash {
+	margin: 0px 8px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.header-inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
 .logo {
 	font-size: 30px;
 	font-weight: bold;
-	float: left;
-}
-
-.menu {
-	float: right;
 }
 
 .navigation {
@@ -40,11 +49,25 @@ header {
 }
 
 .navigation-item {
+	cursor: pointer;
 	margin-right: 25px;
+}
+
+.language-container {
+	margin-top: 15px;
+}
+
+.language-item {
+	margin: 0;
+	font-size: 12px;
 }
 
 .navigation-item:last-child {
 	margin-right: 0px;
+}
+
+.navigation-item:hover {
+	text-decoration: underline;
 }
 
 .btn {
@@ -57,10 +80,14 @@ header {
 .btn-sign-up {
 	background: rgb(79,48,123);
 	background: linear-gradient(150deg, rgba(79,48,123,1) 33%, rgba(0,212,255,1) 100%);
-		box-shadow: 0px 5px 10px 3px rgba(79,48,123,0.3), 
-            		0px 8px 10px 3px rgba(0,212,255,0.3);
 	border-radius: 25px;
 	color: white;
+	transition: box-shadow 0.2s ease-in-out;
+}
+
+.btn-sign-up:hover {
+	box-shadow: 0px 5px 10px 3px rgba(79,48,123,0.3), 
+        		0px 8px 10px 3px rgba(0,212,255,0.3);
 }
 
 .btn i {
