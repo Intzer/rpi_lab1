@@ -16,6 +16,32 @@ a {
 	text-decoration: none;
 }
 
+.btn {
+	display: inline-block;
+	padding: 8px 20px;
+	color: #474747;
+	font-weight: bold;
+}
+
+.btn-sign-up {
+	background: rgb(79,48,123);
+	background: linear-gradient(150deg, rgba(79,48,123,1) 33%, rgba(0,212,255,1) 100%);
+	border-radius: 25px;
+	color: white;
+	transition: box-shadow 0.2s ease-in-out;
+}
+
+.btn-sign-up:hover {
+	box-shadow: 0px 5px 10px 3px rgba(79,48,123,0.3), 
+        		0px 8px 10px 3px rgba(0,212,255,0.3);
+}
+
+.btn i {
+	font-size: 14px;
+	margin-right: 7px;
+}
+
+/* === Header === */
 header {
 	margin-top: 78px;
 }
@@ -70,31 +96,6 @@ header {
 	text-decoration: underline;
 }
 
-.btn {
-	display: inline-block;
-	padding: 8px 20px;
-	color: #474747;
-	font-weight: bold;
-}
-
-.btn-sign-up {
-	background: rgb(79,48,123);
-	background: linear-gradient(150deg, rgba(79,48,123,1) 33%, rgba(0,212,255,1) 100%);
-	border-radius: 25px;
-	color: white;
-	transition: box-shadow 0.2s ease-in-out;
-}
-
-.btn-sign-up:hover {
-	box-shadow: 0px 5px 10px 3px rgba(79,48,123,0.3), 
-        		0px 8px 10px 3px rgba(0,212,255,0.3);
-}
-
-.btn i {
-	font-size: 14px;
-	margin-right: 7px;
-}
-
 .container {
 	margin: 0 200px;
 }
@@ -102,3 +103,43 @@ header {
 .p-text {
 	color: #554491;
 }
+/* ============== */
+
+/* === Main === */
+main {
+	margin-top: 80px;
+}
+
+.picture {
+	text-align: center;
+}
+
+.picture-buttons {
+	margin-top: 40px;
+}
+
+.picture h1 {
+	font-size: 48px;
+}
+
+.picture h2 {
+	font-size: 32px;
+	font-weight: 400;
+}
+
+.picture-buttons > a {
+	margin-left: 15px;
+}
+
+.picture-buttons > a > div i {
+    padding: 10px;
+    width: 38px;
+    font-size: 18px;
+}
+
+
+.picture-buttons > a:first-child {
+	margin-left: 0px;
+}
+
+/* ============ */
