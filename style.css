@@ -111,7 +111,11 @@ main {
 }
 
 .picture {
-	text-align: center;
+	text-align: center;                                             
+	width: 1800px;
+	height: 766px;
+	background-image: url(img/header-bg.png);
+	background-position: 0 -151px;
 }
 
 .picture-buttons {
@@ -137,9 +141,90 @@ main {
     font-size: 18px;
 }
 
+.social {
+	display: inline-block;
+	font-size: 22px;
+	position: absolute;
+	top: 322px;
+	left: 1746px;
+}
+
+.social a {
+	display: block;
+	padding-bottom: 15px;
+	color: #454545;
+	text-decoration: none;
+}
+
+.social a:hover {
+	color: #fc2028;
+}
 
 .picture-buttons > a:first-child {
 	margin-left: 0px;
+}
+
+.vert-line1 {
+	content: "";
+	width: 1px;
+	height: 210px;
+	background-color: #b9b9b9;
+	position: absolute;
+	left: 714px;
+	top: 880px;
+}
+
+.hor-line1 {
+	content: "";
+	width: 192px;
+	height: 1px;
+	background-color: #b9b9b9;
+	position: absolute;
+	left: 1608px;
+	top: 917px;
+}
+
+.security-content {
+	display: grid;
+	grid-template: 1fr / 422px 450px 400px;
+	font-weight: 200;
+	margin-left: 100px;
+	justify-content: center;
+	position: absolute;
+	top: 1000px;
+	left: 210px;
+}
+
+.security-head h2{
+	font-size: 30px;
+	font-weight: 200;
+	margin-left: 70px;
+	word-spacing: 1px;
+	letter-spacing: 0.5px;
+	color: #535353;
+	margin-bottom: -10px;
+}
+
+.security-head p{
+	font-size: 18px;
+	font-weight: 200;
+	margin-left: 70px;
+	word-spacing: 1px;
+	letter-spacing: 0.2px;
+	color: #b9b9b9;
+}
+
+.security-text{
+	font-size: 14px;
+    font-weight: 200;
+	color: #b9b9b9;
+	margin-top: 15px;
+	margin-right: 32px;
+	margin-left: 12px;
+}
+
+.security-imgs{
+	float: left;
 }
 
 /* ============ */
