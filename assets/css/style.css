@@ -25,7 +25,7 @@ a {
 
 .btn-sign-up {
 	background: rgb(79,48,123);
-	background: linear-gradient(150deg, rgba(79,48,123,1) 33%, rgba(0,212,255,1) 100%);
+	background: linear-gradient(to top left, #6276cd, #582c7e);
 	border-radius: 25px;
 	color: white;
 	transition: box-shadow 0.2s ease-in-out;
@@ -39,6 +39,12 @@ a {
 .btn i {
 	font-size: 14px;
 	margin-right: 7px;
+}
+
+.share-buttons {
+	position: absolute;
+	right: 15px;
+	top: 5px
 }
 
 /* === Header === */
@@ -111,19 +117,27 @@ main {
 }
 
 .picture {
+	margin: 0px 50px;
+	background: url("../img/header-background.png");
+	height: 450px;
+	background-position: 0px -240px;
+	background-size: cover;
 	text-align: center;
+	position: relative;
 }
 
 .picture-buttons {
 	margin-top: 40px;
+	position: relative;
+	text-align: center;
 }
 
 .picture h1 {
-	font-size: 48px;
+	font-size: 46px;
 }
 
 .picture h2 {
-	font-size: 32px;
+	font-size: 28px;
 	font-weight: 400;
 }
 
@@ -143,3 +157,52 @@ main {
 }
 
 /* ============ */
+
+/* Advantages */
+.advantages {
+	margin: 0 50px;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+.advantages-header {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.advantages-item {
+	flex-basis: 25%;
+	margin-left: 50px;
+}
+
+.advantages-item:first-child {
+	margin-left: 0;
+}
+
+.advantages-header-item {
+	line-height: 22px;
+}
+
+.advantages-header-item div {
+	font-size: 27px; 
+	color: black;
+}
+
+.advantages-info {
+	word-wrap: normal;
+	padding-left: 15px;
+	font-size: 12px;
+}
+
+.palka1 {
+	position: absolute;
+	height: 140px;
+	width: 1px;
+	background-color: grey;
+	left: 36%;
+	top: -70px;
+}
+
+/* =========== */
