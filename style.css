@@ -118,7 +118,7 @@ main {
 
 .picture {
 	margin: 0px 50px;
-	background: url("../img/header-background.png");
+	background: url("assets/img/header-background.png");
 	height: 450px;
 	background-position: 0px -240px;
 	background-size: cover;
