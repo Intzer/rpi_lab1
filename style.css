@@ -10,6 +10,7 @@ body {
 	font-family: 'Titillium Web', sans-serif;
 	color: #848586;
 	font-size: 16px;
+	margin: 0px, 50px;
 }
 
 a {
@@ -112,7 +113,7 @@ main {
 
 .picture {
 	text-align: center;                                             
-	width: 1800px;
+	width: 1500px;
 	height: 766px;
 	background-image: url(img/header-bg.png);
 	background-position: 0 -151px;
@@ -146,7 +147,7 @@ main {
 	font-size: 22px;
 	position: absolute;
 	top: 322px;
-	left: 1746px;
+	left: 1546px;
 }
 
 .social a {
@@ -180,7 +181,7 @@ main {
 	height: 1px;
 	background-color: #b9b9b9;
 	position: absolute;
-	left: 1608px;
+	left: 1508px;
 	top: 917px;
 }
 
@@ -227,4 +228,34 @@ main {
 	float: left;
 }
 
+
+.physical-security-inf{
+	width: 1146px;
+	position: absolute;
+	left: 0;
+	top: 1188px;
+}
+.physical-security-inf>h2 {
+	color: #535353;
+	font-size: 60px;
+	font-weight: normal;
+	letter-spacing: 0.55px;
+	word-spacing: 1.0px;
+	text-align: right;
+	margin: 0 38px 0 0
+}
+
+.physical-security-inf>p {
+	color: #959393;
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 22px;
+	letter-spacing: 0.2px;
+	word-spacing: 0.4px;
+	text-align: right;
+	margin: 2px 42px 0 0
+}
+.red-text {
+	color: #fc2028;
+}
 /* ============ */
