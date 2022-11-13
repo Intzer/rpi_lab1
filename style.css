@@ -26,10 +26,10 @@ a {
 
 .btn-sign-up {
 	background: rgb(79,48,123);
-	background: linear-gradient(150deg, rgba(79,48,123,1) 33%, rgba(0,212,255,1) 100%);
+	background: linear-gradient(150deg, rgba(100,108,146) 33%, rgba(95,47,106) 100%);
 	border-radius: 25px;
 	color: white;
-	transition: box-shadow 0.2s ease-in-out;
+	transition: box-shadow 0.1s ease-in-out;
 }
 
 .btn-sign-up:hover {
@@ -109,6 +109,7 @@ header {
 /* === Main === */
 main {
 	margin-top: 80px;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 .picture {
@@ -182,7 +183,7 @@ main {
 	background-color: #b9b9b9;
 	position: absolute;
 	left: 1508px;
-	top: 917px;
+	top: 1000px;
 }
 
 .security-content {
@@ -255,6 +256,332 @@ main {
 	text-align: right;
 	margin: 2px 42px 0 0
 }
+
+
+
+.vert-line2 {
+	content: "";
+	width: 1px;
+	height: 432px;
+	background-color: #b9b9b9;
+	position: absolute;
+	left: 1146px;
+	top: 917px;
+}
+
+.hor-line2 {
+	content: "";
+	width: 973px;
+	height: 1px;
+	background-color: #b9b9b9;
+	position: absolute;
+	left: 1px;
+	top: 1381px;
+}
+
+.learn-more-btn {
+    background-color: white;
+	border-radius: 32px;
+    border: 1px solid #b9b9b9;
+    color: #535353;
+	word-spacing: 2.0px;
+	padding-top: 0px;
+	vertical-align: text-top;
+    display: inline-block;
+	height: 62px;
+	width: 334px;
+    font-size: 16px;
+	position: absolute;
+	left: 973px;
+	top: 1351px;
+}
+ .news-line{
+	position: absolute;
+	top: 1452px;
+	left: 21px;
+ }
+/*
+ .wrapper {
+    z-index: 3;
+    height: 160px;
+    position: absolute;
+    left: 367px;
+    top: 1583px;
+    width: 567px;
+}
+
+.wrapper>input {
+    display: none;
+}
+
+.wrapper .controls {
+    display: grid;
+    position: absolute;
+    top: 0;
+}
+
+.wrapper label {
+    background: #727272;
+    cursor: pointer;
+    height: 11px;
+    width: 11px;
+    position: relative;
+    border-radius: 50%;
+    transition: all ease 0, 5s;
+}
+
+.controls label:nth-of-type(2),
+.controls label:nth-of-type(3) {
+    margin-top: 11px;
+    margin-left: 1px;
+}
+
+.wrapper label:hover,
+#slide1:checked~.controls label:nth-of-type(1) {
+    cursor: pointer;
+    z-index: 1;
+    background: #101010;
+    height: 13px;
+    width: 13px;
+}
+
+.slider {
+    height: inherit;
+    width: 533px;
+    position: absolute;
+    right: 1px;
+}
+
+.slides {
+    height: inherit;
+    position: absolute;
+    width: inherit;
+    opacity: 0;
+    z-index: 0;
+    transform: translate(0, 50%) scale(0.5);
+    transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+    margin-top: -8px;
+    margin-left: 3px;
+}
+
+#slide1:checked~.slider>.slide1 {
+    opacity: 1;
+    z-index: 1;
+    transform: scale(1);
+}
+
+.slides>p {
+    font-family: Malaga;
+    color: #101010;
+    font-size: 1.55rem;
+    word-spacing: -0.77px;
+    line-height: 3.7vh;
+}
+
+.slides>h4 {
+    font-family: Malaga;
+    color: #727272;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    font-size: 16px;
+    letter-spacing: 0.18px;
+}
+
+.slides>h4:before {
+    content: "";
+    display: block;
+    position: relative;
+    top: 10px;
+    left: -21px;
+    height: 1px;
+    width: 16px;
+    background: #727272;
+}
+*/
+
+.device{
+	top:765px;
+	position: relative;
+	display: flex;
+	background: linear-gradient(to bottom left,#eeeeee,#ffffff);
+	width: 1800px;
+	height: 530px;
+	margin-top: -6px;
+	margin-bottom: 780px;
+	justify-content: center;
+	align-items: center;
+}
+.device-content{
+	height: 230px;
+	width: 450px;
+	margin: 14px 34px 0 0;
+	text-align: right;
+	color: #535353;
+	z-index: 2;
+}
+
+.device-content>h2 {
+	font-size: 37px;
+	font-weight: 200;
+	word-spacing: 1px;
+	letter-spacing: -0.32px;
+}
+
+.device-content>p {
+	position: relative;
+	top: 8px;
+	right: 5px;
+	color: #959393;
+	letter-spacing: 0.1px;
+	word-spacing: 0.4px;
+	line-height: 22px;
+}
+
+.device-btns {
+	position: relative;
+	top: 38px;
+	right: 1px;
+	display: grid;
+	grid-template: 1fr / 180px 180px;
+	grid-gap: 13px;
+	align-content: flex-end;
+	float: right;
+}
+
+.download-button {
+	height: 55px;
+	border-radius: 8px;
+}
+
+.app-store {
+	background: url(img/app.png);
+}
+
+.app-store:hover {
+	box-shadow: 0px 5px 10px 3px rgba(79,48,123,0.3), 
+        		0px 8px 10px 3px rgba(0,212,255,0.3);
+}
+
+.google {
+	background: url(img/google.png);
+}
+
+.google:hover {
+	box-shadow: 0px 5px 10px 3px rgba(79,48,123,0.3), 
+        		0px 8px 10px 3px rgba(0,212,255,0.3);
+}
+
+.device::before {
+	content: "";
+	position: absolute;
+	top: -8px;
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	height: 200px;
+	border-top: 215px solid #fff;
+	border-right: 1900px solid transparent;
+	z-index: 0;
+}
+
+.device-content::after {
+	content: "";
+	background: url(img/computer.png);
+	width: 578px;
+	height: 670px;
+	displaY: block;
+	position: absolute;
+	right: 270px;
+	top: -117px;
+	z-index: -1;
+}
+
+.buy-block {
+	padding-top: 52px;
+	padding-bottom: 200px;
+	background: linear-gradient(to bottom left, #fafafa, #ffffff);
+}
+
+.buy-content:before {
+	content: "";
+	display: block;
+	height: 1px;
+	width: 1400px;
+	position: relative;
+	background: #b9b9b9;
+	top: -62px;
+	left: -30px;
+}
+
+.buy-content {
+	max-width: 940px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.buy-head>h2 {
+	margin-top: 2px;
+	color: #535353;
+	font-size: 36px;
+	font-weight: 400;
+	letter-spacing: 0.15px;
+	word-spacing: 0.15px;
+}
+
+.buy-head>p {
+	margin-top: -9px;
+	color: #7c7c7c;
+	font-size: 29px;
+	position: relative;
+	letter-spacing: 0.3px;
+	word-spacing: 0.2px;
+}
+
+.buy-btns {
+	display: grid;
+	grid-template: 1fr / 246px 166px;
+	justify-content: center;
+	grid-gap: 50px;
+	margin-top: 34px;
+}
+
+.buy-btns>button {
+	height: 56px;
+	border-radius: 10rem;
+	border-color: transparent;
+	padding-bottom: 2px;
+	color: white;
+}
+
+.btn-upgrade {
+	background: rgb(79,48,123);
+	background: linear-gradient(150deg, rgba(100,108,146) 33%, rgba(95,47,106) 100%);
+	border-radius: 25px;
+	color: white;
+	font-weight: bold;
+	transition: box-shadow 0.2s ease-in-out;
+}
+
+.btn-upgrade:hover {
+	box-shadow: 0px 5px 10px 3px rgba(79,48,123,0.3), 
+        		0px 8px 10px 3px rgba(0,212,255,0.3);
+}
+
+.btn-donate {
+	background: rgb(79,48,123);
+	background: linear-gradient(150deg, rgba(88,192,221) 33%, rgba(7,73,157) 100%);
+	border-radius: 25px;
+	color: white;
+	font-weight: bold;
+	transition: box-shadow 0.2s ease-in-out;
+}
+
+.btn-donate:hover {
+	box-shadow: 0px 5px 10px 3px rgba(126,208,204),
+	            0px 8px 10px 3px rgba(213,238,237);
+}
+
 .red-text {
 	color: #fc2028;
 }
